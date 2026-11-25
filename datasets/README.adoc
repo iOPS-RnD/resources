@@ -1,0 +1,17 @@
+= Datasets
+
+Open and synthetic datasets that more than one project can use, with their origin, licence and intended use.
+
+== What belongs here
+
+* descriptions of datasets and links to where they are published
+* small example data
+
+== What does not belong here
+
+* large data files, which belong in a data repository
+* non-public or confidential data
+
+== Pages
+
+* link:Datasets.adoc[Datasets]

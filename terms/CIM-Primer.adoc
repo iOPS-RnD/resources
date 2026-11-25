@@ -1,0 +1,27 @@
+= CIM Primer
+:idprefix:
+:idseparator: -
+
+NOTE: This page links to files on the Ontotext Google Drive. These links are temporary and will be replaced.
+
+These excerpts from link:https://drive.google.com/open?id=15SvsY0mZ2QvKk08PHxNvjrEmSXCEutge&usp=drive_fs[CIM Primer (ed9 2023-10)-cropped.pdf,role=ontotext-drive] p85 should be useful to understand the connectivity of things in CIM. But really, read that PDF, there are also some diagrams
+
+== Equipment Containment
+
+As well as having component interconnections defined using the ConductingEquipment-Terminal-ConnectivityNode associations, the CIM has an EquipmentContainer class that provides a means of grouping pieces of Equipment together to represent both electrical and non-electrical containment.
+
+== Voltage Levels
+
+Pieces of conducting equipment generally do not have a voltage attribute to define the voltage as a specific value, instead they are associated with a VoltageLevel, a subclass of EquipmentContainer. Each instance of the VoltageLevel class has an association to an instance of BaseVoltage that contains a single attribute to define the nominal voltage of that particular group of components. A single BaseVoltage instance exists for all of the standard nominal voltages used within the data. As such they may be associated with more than one VoltageLevel since standard voltage levels (that is, 33, 132, 275, 400kV) will exist throughout the network. Each VoltageLevel instance, however, contains only the interconnected pieces of equipment at the same voltage level. This is an example of using a subclass of EquipmentContainer to represent electrical containment.
+
+== Substations
+
+The Substation class is a subclass of EquipmentContainer that can contain multiple VoltageLevels and is used to define a collection of equipment “through which electric energy in bulk is passed for the purposes of switching or modifying its characteristics” in the CIM. The Substation class, being a subclass of EquipmentContainer can also contain other instances of Equipment, such as PowerTransformer, which as previously explained, was itself a container, not a piece of conducting equipment in CIM prior to version 15. The Substation class is an example of a subclass of EquipmentContainer to represent non-electrical containment since it will contain pieces of equipment that are physically grouped, but not necessarily electrically connected.
+
+== Lines
+
+The ACLineSegment is not contained within a VoltageLevel. Instead it is contained within an instance of the Line class. The Line class in CIM is used to define a “component part of a system extending between adjacent substations or from a substation to an adjacent interconnection point”. A Line may contain multiple line segments of either the AC or DC variety, etc etc
+
+'''
+
+Adapted from the Talk2PowerSystem wiki, page CIM-Primer (https://github.com/statnett/Talk2PowerSystem/wiki/CIM-Primer).

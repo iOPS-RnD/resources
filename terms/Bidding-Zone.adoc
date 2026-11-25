@@ -1,0 +1,86 @@
+= Bidding Zone
+:idprefix:
+:idseparator: -
+
+== Bidding Zone Definitions
+
+A *Bidding Zone* is a market-based method for managing power transmission congestion. It defines an area within which electricity can be traded without accounting for internal transmission constraints. Bidding Zones are central to electricity market design in Europe and other liberalized electricity markets. They are typically composed of one or more *Scheduling Areas*, which are operated by a single System Operator, usually a *Transmission System Operator (TSO)*.
+
+The definition for Bidding Zone used in the CGMES Network Code Profile (NCP) extension is:
+
+____
+*"A bidding zone is a market-based method for handling power transmission congestion. It consists of scheduling areas that include the relevant production (supply) and consumption (demand) to form an electrical area with the same market price without capacity allocation."*
+____
+
+The definition for Scheduling Area used in the CGMES NCP extension is:
+
+____
+*"An area where production and/or consumption of energy can be forecasted, scheduled, and measured. The area is operated by only one system operator, typically a Transmission System Operator (TSO). The area can consist of a sub-area, which has the same definition as the main area, but can be operated by another system operator (typically a DSO or CDSO). A substation is the smallest grouping that can be included in the area. The area size should be considered in terms of the possibility of accumulated reading (settlement metering) and the capability of operating as an island."*
+____
+
+'''''
+
+== Origin and Evolution
+
+The concept of Bidding Zones originated from the Norwegian electricity market design back in the early 1990s. Norway introduced dynamic Bidding Zones (_Elspotområder_) as a regulatory mechanism to manage transmission constraints and improve market efficiency. Uniquely, the Norwegian system allows Bidding Zones to be redefined with as little as two weeks’ notice based on congestion patterns—though in practice, the market is usually given a longer lead time.
+
+Over time, the concept was adopted and formalized within the European electricity market, especially under the coordination of *ENTSO-E*. Multiple studies and consultations have been carried out to define rules for establishing, maintaining, or splitting Bidding Zones based on evolving grid and market conditions.
+
+'''''
+
+== Current Usage
+
+Most European countries define their Bidding Zones along national borders. In these cases, the Bidding Zone typically corresponds to both the *Control Area* and the *Transmission Boundary* of the country. However, there are key exceptions:
+
+* *Sweden* and *Italy* are divided into multiple fixed Bidding Zones based on structural congestion.
+* *Denmark* operates with two fixed Bidding Zones (East and West), although it is one Control Area.
+* *Norway* uses dynamic Bidding Zones that can shift depending on operational congestion.
+* *Germany* is a special case: although it is one Bidding Zone, it is operated by four TSOs, each responsible for a *Scheduling Area* within that Bidding Zone. A complete list of the Bidding Zone can be found here: https://www.entsoe.eu/data/energy-identification-codes-eic/eic-area-codes-map/
+
+'''''
+
+== Congestion Management and Zonal Design
+
+Bidding Zones are designed to manage *mid-term congestion constraints*. These constraints do not necessarily align with political borders. The Bidding Zone concept aims to internalize grid constraints that are structural and persistent, while *market coupling* and *cross-zonal capacity allocation* are used for inter-zonal trade.
+
+ENTSO-E has published multiple studies and proposals to guide Bidding Zone reviews, with the goal of aligning market zones with actual congestion patterns. These reviews are critical to ensuring that energy prices reflect locational scarcity and physical network limitations.
+
+'''''
+
+== Area Role in Power Flow and Modeling
+
+For operational planning, Bidding Zones are used in *power flow algorithms* to control *inter-area exchanges*, helping guide power flow to meet exchange targets between areas.
+
+For example, in the *Nordic44* model—originally developed in *PSS®E*—inter-area exchanges were modeled using *GeographicalRegion* as a proxy for Bidding Zones, since PSS®E does not natively support the Bidding Zone concept.
+
+In Common Information Model (CIM) extensions:
+
+* *CIM15 (Statnett extension)* introduced `sn:BiddingArea` to represent Bidding Zones.
+* In *CIM16 / CGMES 2.4*, this was replaced with `entsoe2:EnergyCongestionZone`.
+* In the *CGMES Network Code Profile (NCP)*, the standard representation is now `nc:BiddingZone`.
+
+=== CIM Modeling Perspective
+
+[cols=",",options="header",]
+|===
+|Concept |Description
+|`GeographicalRegion` |"A geographical region of a power system network model." Typically represents countries, as required by CGMES.
+|`SubGeographicalRegion` |"A subset of a geographical region." Used for grouping substations for navigation or visualization purposes only.
+|`ControlArea` |<"def to big to be included"> Represents the equipment under the control of a System Operator and is associated with operational power flow.
+|===
+
+The *Common Grid Model (CGM)* defined in the Network Code relies primarily on the concept of *Bidding Zones*. However, a clear distinction between *Bidding Zone*, *Control Area*, and *Scheduling Area* is essential in modeling, market design, and regulatory compliance.
+
+'''''
+
+== Conclusion
+
+Bidding Zones are both a *technical* and a *political* issue. While the ideal design is based on system constraints and efficient congestion management, real-world implementation often reflects national interests, market integration goals, and historical practices.
+
+As the power system evolves with increased variable generation and cross-border exchanges, the structure and role of Bidding Zones will continue to be a vital and dynamic part of the European electricity market design.
+
+'''''
+
+'''
+
+Adapted from the Talk2PowerSystem wiki, page Bidding-Zone (https://github.com/statnett/Talk2PowerSystem/wiki/Bidding-Zone).

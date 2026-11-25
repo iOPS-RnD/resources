@@ -1,0 +1,15 @@
+= Training materials
+
+Courses, tutorials, slides and recordings that help people work with the shared resources.
+
+== What belongs here
+
+* links to training material and short descriptions of it
+
+== What does not belong here
+
+* material whose terms do not allow it to be shared
+
+== Pages
+
+* link:Training-Materials.adoc[Training Materials]

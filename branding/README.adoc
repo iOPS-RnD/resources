@@ -1,0 +1,11 @@
+= Branding
+
+Logos and visual identity of the initiative and its projects.
+
+== What belongs here
+
+* logo files and guidance on how to use them
+
+== What does not belong here
+
+* third-party logos without permission to use them

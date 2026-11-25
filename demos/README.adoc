@@ -1,0 +1,11 @@
+= Demos
+
+This section is a placeholder for demonstrations of shared resources. Nothing has been added yet.
+
+== What belongs here
+
+* demonstrations that use shared resources, with instructions to run them
+
+== What does not belong here
+
+* project-specific demonstrations, which stay in the project's own repository

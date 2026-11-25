@@ -1,0 +1,54 @@
+= Areas and Zones
+:idprefix:
+:idseparator: -
+
+Task: https://github.com/statnett/Talk2PowerSystem_PM/issues/23
+
+CIM uses various kinds of areas and zones. It's easy for an LLM to get confused with that variety, especially because a user is likely not to mention the precise authoritative zone kind in his/her question.
+
+[cols=",,,",options="header",]
+|===
+|CIM/NCP |Description |Name example |Transparency
+|`GeographicalRegion` |"A geographical region of a power system network model." Typically represents countries, as required by CGMES. |"NO" - which include the full Nordic |Member State (Country), CTY
+|`SubGeographicalRegion` |"A subset of a geographical region." Used for grouping substations for navigation or visualization purposes only. |NO1 SGR |N/A
+|`ControlArea` |<"def to big to be included"> Represents the equipment under the control of a System Operator and is associated with operational power flow. |NO CA (Norwegian Control Area) |`Control Area, CA=CTA`
+|`EnergyArea` / `LoadArea` |"The class is the root or first level in a hierarchical structure for grouping of loads for the purpose of load flow load scaling." Used for scaling the Load |NO LA (Norwegian Load Area) |N/A
+|`SubLoadArea` |"The class is the second level in a hierarchical structure for grouping of loads for the purpose of load flow load scaling." Used for scaling the Load |NO1 SLA (Norwegian Sub Load Area) |N/A
+|`BiddingZone` |"A bidding zone is a market-based method for handling power transmission congestion." Provide the energy prices |NO1 (Norwegian Area 1 Bidding Zone) |`Bidding Zone, BZN`
+|`SchedulingArea` |"An area where production and/or consumption of energy can be forecasted, scheduled and measured." Provide the energy prices |SA-NO1 (Scheduling Area for Norwegian Area 1 Bidding Zone) |`Scheduling Area, SCA`
+|===
+
+@Vladimir - can this be deleted?
+
+* Nordic44 BiddingZone vs SubGeographicalRegion vs EnergyCongestionZone (etc etc) vs
+* ENTSO-E defined Areas/Zones in the EIC file (eg Balancing Area, Member State, etc).
+
+Data questions:
+
+* At M0 we had some old classes (namespace `entsoe2`).
+* NC defines new classes, but is the list complete?
+* Why "FI1" and "SE1" Subregions have parent Region "NO" (FI and SE may be part of the Nordics but are separate countries)?
+* What containment relations exist between areas? https://github.com/statnett/Talk2PowerSystem/wiki/Demo1#q14-ac-lines-crossing-subgeographicalregions[Demo1 Q1.4 AC Lines Crossing SubGeographicalRegions] has a UML diagram showing that `BiddingZone` is made up of `SchedulingAreas`, but the data doesn't show that
+
+== ENTSO-E Areas
+
+From https://transparency.ontotext.com/spec/#areas[Transparency Knowledge Graph spec]:
+
+The constituency of ENTSOE is broken up into a number of Domain/Area "meshes" according to different principles. See https://transparency.ontotext.com/spec/glossary.html#areas[glossary#areas] for a description of all kinds of Areas, and list of sources where we got this information from.
+
+The following kinds of Areas are most important for Transparency because they are used in Data Items:
+
+* `Bidding Zone, BZN`: largest geographical area in which there is a uniform spot price, in which Market Participants can exchange energy without Capacity Allocation.
+* `Control Area, CA=CTA`: coherent part of the interconnected system, operated by a single system operator and shall include connected physical loads and/or generation units
+* `Member State (Country), CTY`: EU member state or a neighboring state (eg NO in the European Economic Area; SR and UA as neighboring states)
+* `Market Balance Area, MBA`: geographic area in which there is a uniform balancing energy price. Consists of one or more Metering Grid Areas with common market rules for which the settlement responsible party carries out a balance settlement and which has the same price for imbalance. May also be defined due to bottlenecks.
+* `Scheduling Area, SCA`: same as Bidding Zone, except if there is more than one Responsibility Area within this Bidding Zone. In the latter case, the Scheduling Area equals Responsibility Area or a group of Responsibility Areas.
+
+TODO:
+
+* Make a table that maps ENTSO-E areas/zones to corresponding CIM classes in Nordic44 data
+* Add relevant relations from PSRs to zones
+
+'''
+
+Adapted from the Talk2PowerSystem wiki, page Areas-and-Zones (https://github.com/statnett/Talk2PowerSystem/wiki/Areas-and-Zones).

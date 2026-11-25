@@ -1,0 +1,11 @@
+= Information model and ontology
+
+This section is a placeholder for the shared information model and ontology. Nothing has been added yet.
+
+== What belongs here
+
+* the shared information model and ontology, with documentation and examples
+
+== What does not belong here
+
+* project-specific extensions that only one project uses

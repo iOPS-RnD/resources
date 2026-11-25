@@ -1,0 +1,47 @@
+= Projects
+:idprefix:
+:idseparator: -
+
+iOPS is an umbrella initiative, not a project. These are its projects and shared research assets. Each is hosted and governed where its link points. Only attributes that the project model marks as public are shown, and only when they are known.
+
+== Talk2PowerSystem
+
+[cols="1,3"]
+|===
+|Status |closed
+|Home |https://github.com/statnett/Talk2PowerSystem
+|Repository |https://github.com/statnett/Talk2PowerSystem
+|Hosted by |Statnett
+|===
+
+== p-SWAMP
+
+[cols="1,3"]
+|===
+|Status |active
+|Home |https://lfenergy.org/projects/p-swamp/
+|Hosted by |LF Energy
+|Builds on |Talk2PowerSystem
+|===
+
+== INNO4GRID
+
+[cols="1,3"]
+|===
+|Status |active
+|Home |https://inno4grid.eu/
+|Hosted by |INNO4GRID consortium
+|Builds on |Talk2PowerSystem
+|===
+
+== Shared research assets
+
+[cols="1,3,1,2",options="header"]
+|===
+|Asset |Description |Status |Home
+
+|Nordic-SO
+|Shared synthetic power-system model, replacing Nordic44.
+|
+|
+|===

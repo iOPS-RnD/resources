@@ -1,0 +1,43 @@
+= Training Materials
+:idprefix:
+:idseparator: -
+
+NOTE: This page links to files on the Ontotext Google Drive. These links are temporary and will be replaced.
+
+== Graph DB and SPARQL
+
+* https://lms-academy.ontotext.com/[Ontotext Academy]
+** The academy is free, you just need to register with your email.
+** Has two learning paths: "GraphDB Developer" and "GraphDB Knowledge Graph Engineer", each consisting of 3 courses
+** The second learning path has 3 courses:
+*** Course 1: Introduction to Semantic Technologies
+*** Course 2: Semantic models with GraphDB
+*** Course 3: SPARQL
+** Normally the 3 courses need to be taken in sequence, and we highly recommend it if you have no experience with semantic technologies or want to get a certificate.
+** To take only a selected course, register and then contact "bob dot ducharme at graphwise.ai"
+* https://www.learningsparql.com/[Learning SPARQL]: a famous book by Bob that you can buy on https://www.amazon.com/Learning-SPARQL-Querying-Updating-1-1/dp/1449371434/[Amazon] in paper or Kindle format.
+* https://sandbox.ontotext.com/[GraphDB Sandbox] - GraphDB ready-to-go and pre-packaged projects coupled with detailed walkthroughs
+
+== Pool Party
+
+* http://academy.poolparty.biz/[Pool Party Academy] - official training materials for PoolParty
+
+== Graphwise Introduction to LLM and RAG
+
+Recent training covering LLM use cases, evaluation methods, internal workings of LLMs (like tokenization and embeddings), and fine-tuning techniques. The slides also covers practical applications as well as broader themes like AI readiness and the future of AI.
+
+A recording is available for the first presentation and will be added for the others in the near future.
+
+* 1.2 LLMs under the hood link:https://docs.google.com/presentation/d/1QYh6NvonfsqXSNpikgc0XQ9r3MdBL5sF96-kVl0gQGM/view[Slides,role=ontotext-drive] / link:https://drive.google.com/file/d/131XQW-4-Yhjdb_dU-96R-TkIaAEaQ_T3/view?usp=sharing[Recording,role=ontotext-drive]
+* 1.3 LLM Use Cases link:https://docs.google.com/presentation/d/1NMrOQS_a-ewP3ymmoUOOAsmekhYyYPGxA6HF4mLvr5M/view[Slides,role=ontotext-drive]
+* 2.1 Evaluating LLMs link:https://docs.google.com/presentation/d/1_yl8dhIbN-mFq9g8DeenMd_Vfwka-G89eyXEDzFjX6U/view#slide=id.p[Slides,role=ontotext-drive]
+* 2.3 Fine-tuning link:https://docs.google.com/presentation/d/11KOa4HrKjo-4_TCs0LutU6iatbjaUZSN7H8R6cZ-b-c/view[Slides,role=ontotext-drive]
+* 2.4 Predicting the Future link:https://docs.google.com/presentation/d/1k6622F2LuYfclTh2wFxbskyCktzrVgijjeKrsUXLpp0/view[Slides,role=ontotext-drive]
+
+== Other
+
+* https://www.ontotext.com/products/ontotext-refine/[Ontotext Refine]: RDF transformation tool on top of OpenRefine (https://www.youtube.com/watch?v=WJWeyaKLkjY[demo recording])
+
+'''
+
+Adapted from the Talk2PowerSystem wiki, page Training-Materials (https://github.com/statnett/Talk2PowerSystem/wiki/Training-Materials).
