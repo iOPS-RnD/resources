@@ -12,40 +12,45 @@ The repository provides a common place for reusable knowledge, architecture, con
 
 Project-specific source code, datasets, documentation and results should normally remain in the corresponding project repository.
 
+The content is read and edited in the link:https://github.com/iOPS-RnD/resources/wiki[resources wiki].
+
 The initiative, its projects, shared research assets and software are presented on the link:https://github.com/iOPS-RnD[iOPS-RnD organisation page].
 
 == Contents
 
 [cols="1,3",options="header"]
 |===
-|Folder |Content
+|Content |Description
 
-|link:projects/README.adoc[projects/]
+|link:https://github.com/iOPS-RnD/resources/wiki/Projects[Projects] (wiki)
 |Projects and shared research assets of the initiative, generated from the project model.
 
-|link:terms/README.adoc[terms/]
+|link:https://github.com/iOPS-RnD/resources/wiki/Terms-and-definitions[Terms and definitions] (wiki)
 |Terms, definitions and concepts used across projects, such as areas, zones and the Common Information Model.
 
-|link:information-model/README.adoc[information-model/]
+|link:https://github.com/iOPS-RnD/resources/wiki/Information-model-and-ontology[Information model and ontology] (wiki)
 |The shared information model and ontology (placeholder).
 
-|link:datasets/README.adoc[datasets/]
+|link:https://github.com/iOPS-RnD/resources/wiki/Datasets[Datasets] (wiki)
 |Open and synthetic datasets and how to use them.
 
-|link:training/README.adoc[training/]
+|link:https://github.com/iOPS-RnD/resources/wiki/Training-Materials[Training materials] (wiki)
 |Courses, tutorials and other learning material.
 
-|link:demos/README.adoc[demos/]
+|link:https://github.com/iOPS-RnD/resources/wiki/Demos[Demos] (wiki)
 |Demonstrations of shared resources (placeholder).
 
-|link:dissemination/README.adoc[dissemination/]
+|link:https://github.com/iOPS-RnD/resources/wiki/Dissemination[Dissemination] (wiki)
 |Publications, presentations and events.
 
-|link:branding/README.adoc[branding/]
-|Logos and visual identity of the initiative and its projects.
+|link:https://github.com/iOPS-RnD/resources/wiki/References[References] (wiki)
+|Standards and other references, kept in the repository.
 
 |link:references/README.adoc[references/]
 |Standards and other references, grouped by publisher.
+
+|link:branding/README.adoc[branding/]
+|Logos and visual identity of the initiative and its projects.
 |===
 
 == Scope of this repository
@@ -243,16 +248,7 @@ Examples and demonstrations should use synthetic or otherwise publishable inform
 
 == Contribution
 
-Contributions should follow the common contribution and governance guidance maintained by the link:https://github.com/iOPS-RnD/.github[`iOPS-RnD/.github`] repository unless this repository defines more specific requirements.
-
-When contributing material, consider first whether it is:
-
-. specific to one project;
-. reusable across iOPS;
-. an independently maintained software component or dataset; or
-. protected information.
-
-Only the second category normally belongs in this repository.
+Content is edited in the wiki. Edits are proposals and are reviewed before they become part of the iOPS resources. Repository files are generated; do not edit them directly.
 
 == Licence
 
