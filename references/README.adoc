@@ -1,0 +1,32 @@
+= References
+
+== IEC and ISO standards
+
+IEC and ISO standards are sold by the standards bodies; in Norway they can be purchased through Standard Norge (https://standard.no).
+
+[[ref-iec-61968-1-2020]]
+IEC 61968-1:2020::
+Application integration at electric utilities – System interfaces for distribution management – Part 1: Interface architecture and general recommendations. IEC, 2020.
+
+[[ref-nek-968-2024]]
+NEK 968:2024::
+Applikasjonsintegrasjon i kraftselskap. NEK, 2024. In Norwegian. Information: link:++https://www.nek.no/produkter/nek-968/++[]. Purchase: link:++https://standard.no/fagomrader/elektrofag/elektrotekniske-standarder-fra-NEK/applikasjonsintegrasjon-i-kraftselskap--nek-968/++[].
+
+[[ref-iec-61970-600-1-2021]]
+IEC 61970-600-1:2021::
+Energy management system application program interface (EMS-API) – Part 600-1: Common Grid Model Exchange Standard (CGMES) – Structure and rules. IEC, 2021.
+
+[[ref-iec-61970-600-2-2021]]
+IEC 61970-600-2:2021::
+Energy management system application program interface (EMS-API) – Part 600-2: Common Grid Model Exchange Standard (CGMES) – Exchange profiles specification. IEC, 2021.
+
+== ENTSO-E
+
+[[ref-entsoe-cgmes-library]]
+CGMES Library::
+Common Grid Model Exchange Standard (CGMES) Library. ENTSO-E. Information: link:++https://www.entsoe.eu/data/cim/cim-for-grid-models-exchange/++[].
+
+[[ref-entsoe-application-profiles-library]]
+Application Profiles Library::
+Machine-readable artefacts (RDFS, SHACL) for CGMES and the Network Code CGMES extensions. ENTSO-E. Information: link:++https://github.com/entsoe/application-profiles-library++[].
+
