@@ -37,7 +37,3 @@ A recording is available for the first presentation and will be added for the ot
 == Other
 
 * https://www.ontotext.com/products/ontotext-refine/[Ontotext Refine]: RDF transformation tool on top of OpenRefine (https://www.youtube.com/watch?v=WJWeyaKLkjY[demo recording])
-
-'''
-
-Adapted from the Talk2PowerSystem wiki, page Training-Materials (https://github.com/statnett/Talk2PowerSystem/wiki/Training-Materials).

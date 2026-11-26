@@ -64,7 +64,3 @@ Svedala is a SE dataset aimed to test power flow. It is much bigger than Nordic4
 * https://github.com/statnett/Nordic44/tree/main/instances/Enterprise/cimxml[Nordic44/Enterprise] now includes sample data about AssetCatalog (switches by Schneider Electric and Siemens Energy) and AssetManagement (Statnett lifecycle information about these switches)
 * The ontologies are in https://github.com/statnett/CIM4Enterprise/tree/main/profile/merge-owl[statnett/CIM4Enterprise] but use older namespace versions than the data (see https://github.com/statnett/Nordic44/issues/35)
 * https://github.com/Sveino/AssetCatalog[Sveino/AssetCatalog] has asset info from DIGIN about `BundledCable Bushing CircuitBreaker DSOTransformerSpecification Disconnector LoadBreakSwitch ManufacturerTransfomerShipment`. It includes XML schemas not RDFS ontologies
-
-'''
-
-Adapted from the Talk2PowerSystem wiki, page Datasets (https://github.com/statnett/Talk2PowerSystem/wiki/Datasets).

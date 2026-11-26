@@ -21,7 +21,3 @@ The Substation class is a subclass of EquipmentContainer that can contain multip
 == Lines
 
 The ACLineSegment is not contained within a VoltageLevel. Instead it is contained within an instance of the Line class. The Line class in CIM is used to define a “component part of a system extending between adjacent substations or from a substation to an adjacent interconnection point”. A Line may contain multiple line segments of either the AC or DC variety, etc etc
-
-'''
-
-Adapted from the Talk2PowerSystem wiki, page CIM-Primer (https://github.com/statnett/Talk2PowerSystem/wiki/CIM-Primer).

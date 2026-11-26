@@ -487,7 +487,3 @@ During Work Package 1, effort is split across two separate infrastructure enviro
 
 * *Statnett's side* — the Research and Development Platform (RNDP) https://rndp.statnett.no/[https://rndp.statnett.no/], where Graphwise assists with the infrastructure and deployment by implementing Helm charts (IaC) for the different services and promoting Helm deployments via Jupyter Hub as a bastion.
 * *Graphwise's own infrastructure* — the CIM environment https://cim.ontotext.com/chat/[https://cim.ontotext.com/chat/], where Graphwise designs and implements the full infrastructure and deployment process.
-
-'''
-
-Adapted from the Talk2PowerSystem wiki, page CIM-Semantic-data (https://github.com/statnett/Talk2PowerSystem/wiki/CIM-Semantic-data).

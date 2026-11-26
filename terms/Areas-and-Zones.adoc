@@ -48,7 +48,3 @@ TODO:
 
 * Make a table that maps ENTSO-E areas/zones to corresponding CIM classes in Nordic44 data
 * Add relevant relations from PSRs to zones
-
-'''
-
-Adapted from the Talk2PowerSystem wiki, page Areas-and-Zones (https://github.com/statnett/Talk2PowerSystem/wiki/Areas-and-Zones).

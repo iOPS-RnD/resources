@@ -58,7 +58,3 @@ Yet, in the end: they all face the same core `DevOps` challenges:
 * Production deployment
 
 This perspective strengthens the bridge between traditional power system modeling and modern DevOps-driven approaches.
-
-'''
-
-Adapted from the Talk2PowerSystem wiki, page ModelOps-SchemaOps-MLOps (https://github.com/statnett/Talk2PowerSystem/wiki/ModelOps-SchemaOps-MLOps).

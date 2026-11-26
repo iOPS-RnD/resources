@@ -80,7 +80,3 @@ Bidding Zones are both a *technical* and a *political* issue. While the ideal de
 As the power system evolves with increased variable generation and cross-border exchanges, the structure and role of Bidding Zones will continue to be a vital and dynamic part of the European electricity market design.
 
 '''''
-
-'''
-
-Adapted from the Talk2PowerSystem wiki, page Bidding-Zone (https://github.com/statnett/Talk2PowerSystem/wiki/Bidding-Zone).

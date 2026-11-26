@@ -163,7 +163,3 @@ Background materials:
 
 * https://www.pnnl.gov/main/publications/external/technical_reports/PNNL-38003.pdf[Connecting Minds: AI Use Cases to Bridge Power Systems and Large Language Models for Practical Applications] (PNNL-38003, May 2025): Compilation of 20 high-impact use cases of LLMs for planning, operations, and asset management.
 * https://pypi.org/project/cim-graph/[cim-graph] on PyPI, https://github.com/orgs/PNNL-CIM-Tools/repositories[PNNL-CIM-Tools/repositories]: PNNL open-source repositories for working with CIM model data
-
-'''
-
-Adapted from the Talk2PowerSystem wiki, page Dissemination (https://github.com/statnett/Talk2PowerSystem/wiki/Dissemination).
