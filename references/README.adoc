@@ -30,3 +30,11 @@ Common Grid Model Exchange Standard (CGMES) Library. ENTSO-E. Information: link:
 Application Profiles Library::
 Machine-readable artefacts (RDFS, SHACL) for CGMES and the Network Code CGMES extensions. ENTSO-E. Information: link:++https://github.com/entsoe/application-profiles-library++[].
 
+[[ref-entsoe-nc-ap]]
+NC-AP::
+Network Code Application Profiles (NC-AP). Machine-readable vocabularies (RDFS) and constraints for the Network Code CGMES extensions; the source of the Bidding Zone and Scheduling Area definitions quoted in the wiki. ENTSO-E. Information: link:++https://github.com/entsoe/NC-AP++[].
+
+[[ref-entsoe-cgmes-ap]]
+CGMES-AP::
+CGMES Application Profiles (CGMES-AP). Machine-readable vocabularies (RDFS) and constraints for CGMES, including the Equipment vocabulary that defines ControlArea. ENTSO-E. Information: link:++https://github.com/entsoe/CGMES-AP++[].
+

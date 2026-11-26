@@ -32,16 +32,16 @@ The initiative, its projects, shared research assets and software are presented 
 |The shared information model and ontology (placeholder).
 
 |link:https://github.com/iOPS-RnD/resources/wiki/Datasets[Datasets] (wiki)
-|Open and synthetic datasets and how to use them.
+|Open and synthetic datasets and how to use them (placeholder).
 
 |link:https://github.com/iOPS-RnD/resources/wiki/Training-Materials[Training materials] (wiki)
-|Courses, tutorials and other learning material.
+|Courses, tutorials and other learning material (placeholder).
 
 |link:https://github.com/iOPS-RnD/resources/wiki/Demos[Demos] (wiki)
 |Demonstrations of shared resources (placeholder).
 
 |link:https://github.com/iOPS-RnD/resources/wiki/Dissemination[Dissemination] (wiki)
-|Publications, presentations and events.
+|Publications, presentations and events (placeholder).
 
 |link:https://github.com/iOPS-RnD/resources/wiki/References[References] (wiki)
 |Standards and other references, kept in the repository.

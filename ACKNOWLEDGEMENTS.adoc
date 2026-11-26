@@ -1,0 +1,10 @@
+= Acknowledgements
+
+The content of this repository was written by, or draws on, the following.
+
+[[credit-entsoe-profile-vocabularies]]
+ENTSO-E application profile vocabularies (entsoe/NC-AP and entsoe/CGMES-AP)::
+The definitions of Bidding Zone and Scheduling Area are quoted from the ENTSO-E Network Code Profile vocabulary (entsoe/NC-AP). Licence: link:https://www.apache.org/licenses/LICENSE-2.0[Apache License 2.0]. See https://github.com/entsoe/NC-AP.
++
+The source's NOTICE file reads: "+Apache ENTSO-E Application Profiles Library. Copyright 2025 The Apache Software Foundation. Portions of this software/artifacts were developed at ENTSO-E (https://www.entsoe.eu/).+"
+
